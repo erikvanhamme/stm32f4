@@ -33,7 +33,7 @@ endif
 #stm32f4/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f439xx.s
 #stm32f4/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f446xx.s
 
-headers += \
+systemheaders += \
 	stm32f4/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h \
 	stm32f4/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h \
 	stm32f4/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \

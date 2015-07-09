@@ -25,8 +25,6 @@
 
 /* TODO: Find out what other NewLib syscalls should be implemented. (List: http://wiki.osdev.org/Porting_Newlib#newlib.2Flibc.2Fsys.2Fmyos.2Fsyscalls.c ) */
 
-#undef errno
-extern int errno;
 extern int _heap_start;
 
 inline void abort(void) {
